@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+background: #34495e;
+}
+form{
+    background: rgba(255, 255, 255, 0.884);
+    display: inline-block;
+    width: 650px;
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    height: 500px;
+    padding:20px 100px;
+    
+    
+}
+form h3{
+    text-align: center;
+    font-weight: 400;
+    font-size: 30px;
+}
+h3::before{
+    content: '';
+    width: 120px;
+    height: 1px;
+    position: absolute;
+    top: 7.5%;
+    left: 18%; 
+    background: black;
+    display: block;
+}
+h3::after{
+    content: '';
+    width: 120px;
+    height: 1px;
+    position: absolute;
+    top: 7.8%;
+    right: 18%; 
+    background: black;
+    display: block;
+}
+form .top{
+    text-align: center;
+}
+input:not(.check-box,.email,.pass,.confo){
+    width: 200px;
+    height: 40px;
+    padding-left: 20px;
+    outline: none;
+    border: none;
+    font-size: 15px;
+    margin-left: 10px;
+    
+}
+form .last{
+    margin-left: 10px;
+
+}
+.email,.pass,.confo{
+    width: 416px;
+    height: 40px;
+    padding-left: 20px;
+    border: none;
+    margin-left: 10px;
+    outline: none;
+    font-size: 15px;
+}
+
+.checkbox{
+    display: flex;
+    margin-left: 10px;
+
+}
+.checkbox p{
+    margin-left: 15px;
+}
+.checkbox p span{
+    color: rgb(0, 128, 32);
+}
+form button{
+    width: 416px;
+    margin-left: 10px;
+    margin-top: 20px;
+    height: 40px;
+    font-size: 18px;
+    color: white;
+    background: rgb(0, 128, 32);
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+.outside{
+    position: absolute;
+    top: 90%;
+    left: 45%;
+    font-size: 16px;
+    color: white;
+}
+.outside a{
+    color: white;
+}
+.check-box{
+    cursor: pointer;
+}
